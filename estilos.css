@@ -1,0 +1,107 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#contenedor-quiz,
+#contenedor-formulario,
+#contenedor-materias,
+#contenedor-resultados {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgba(71, 20, 190, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: white;
+}
+
+p {
+  font-size: 1.2em;
+  color:wheat;
+}
+
+#formulario-inicial {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#formulario-inicial div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#formulario-inicial label {
+  margin-bottom: 5px;
+  font-size: 1.2em;
+}
+
+#formulario-inicial input {
+  padding: 5px;
+  width: 100%;
+  font-size: 1.2em;
+}
+
+#respuestas {
+  margin-top: 20px;
+}
+
+.boton-respuesta {
+  display: block;
+  width: 100%;
+  margin: 5px 0;
+  padding: 10px;
+  background-color: black;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  font-size: 1.2em;
+}
+
+.boton-respuesta.correcto {
+  background-color: #4caf50;
+  color: white;
+}
+
+.boton-respuesta.incorrecto {
+  background-color: #f44336;
+  color: white;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#boton-siguiente,
+#boton-resultados,
+#boton-reiniciar,
+#boton-regresar {
+  margin-top: 20px;
+  padding: 15px 20px;
+  font-size: 1.2em;
+}
+

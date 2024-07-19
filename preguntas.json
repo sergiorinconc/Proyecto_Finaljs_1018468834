@@ -1,0 +1,63 @@
+{
+    "matematicas": [
+      {
+        "pregunta": "¿Cuál es el resultado de 2 + 2?",
+        "respuestas": [
+          {"texto": "3", "correcto": false},
+          {"texto": "4", "correcto": true},
+          {"texto": "5", "correcto": false},
+          {"texto": "6", "correcto": false}
+        ]
+      },
+      {
+        "pregunta": "¿Cuál es la raíz cuadrada de 9?",
+        "respuestas": [
+          {"texto": "2", "correcto": false},
+          {"texto": "3", "correcto": true},
+          {"texto": "4", "correcto": false},
+          {"texto": "5", "correcto": false}
+        ]
+      }
+    ],
+    "biologia": [
+      {
+        "pregunta": "¿Cuál es la molécula principal que lleva información genética?",
+        "respuestas": [
+          {"texto": "Proteína", "correcto": false},
+          {"texto": "ADN", "correcto": true},
+          {"texto": "Lípido", "correcto": false},
+          {"texto": "Carbohidrato", "correcto": false}
+        ]
+      },
+      {
+        "pregunta": "¿Qué tipo de células tienen los humanos?",
+        "respuestas": [
+          {"texto": "Procariotas", "correcto": false},
+          {"texto": "Eucariotas", "correcto": true},
+          {"texto": "Algas", "correcto": false},
+          {"texto": "Hongos", "correcto": false}
+        ]
+      }
+    ],
+    "sociales": [
+      {
+        "pregunta": "¿Quién fue el primer presidente de los Estados Unidos?",
+        "respuestas": [
+          {"texto": "Abraham Lincoln", "correcto": false},
+          {"texto": "George Washington", "correcto": true},
+          {"texto": "Thomas Jefferson", "correcto": false},
+          {"texto": "John Adams", "correcto": false}
+        ]
+      },
+      {
+        "pregunta": "¿En qué año comenzó la Segunda Guerra Mundial?",
+        "respuestas": [
+          {"texto": "1914", "correcto": false},
+          {"texto": "1939", "correcto": true},
+          {"texto": "1945", "correcto": false},
+          {"texto": "1950", "correcto": false}
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div id="contenedor-formulario">
+        <h1>Bienvenido al Quiz</h1>
+        <form id="formulario-inicial">
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" required>
+            </div>
+            <div>
+                <label for="curso">Curso:</label>
+                <input type="text" id="curso" required>
+            </div>
+            <button type="submit">Iniciar Quiz</button>
+        </form>
+    </div>
+
+    <div id="contenedor-materias" style="display:none;">
+        <h1>Selecciona una Materia</h1>
+        <button onclick="seleccionarMateria('matematicas')">Matemáticas</button>
+        <button onclick="seleccionarMateria('biologia')">Biología</button>
+        <button onclick="seleccionarMateria('sociales')">Sociales</button>
+        <button id="boton-regresar-formulario" style="display:none;">Regresar</button>
+    </div>
+
+    <div id="contenedor-quiz" style="display:none;">
+        <h1>Quiz de <span id="titulo-materia"></span></h1>
+        <div id="contenedor-pregunta">
+            <p id="pregunta">Pregunta aquí</p>
+            <div id="respuestas">
+                <!-- Respuestas serán generadas dinámicamente -->
+            </div>
+        </div>
+        <button id="boton-siguiente" style="display:none;">Siguiente</button>
+        <button id="boton-resultados" style="display:none;">Mostrar Resultados</button>
+        <button id="boton-regresar">Regresar</button>
+    </div>
+
+    <div id="contenedor-resultados" style="display:none;">
+        <h1>Resultados del Quiz</h1>
+        <p id="resultados"></p>
+        <button id="boton-reiniciar">Reiniciar Quiz</button>
+        <button id="boton-regresar-resultados">Regresar</button>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="quiz.js"></script>
+</body>
+</html>
